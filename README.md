@@ -1,16 +1,33 @@
-# text_canvas_app
+# Mini Canva - Text Editor
 
-A new Flutter project.
+A lightweight Flutter app that mimics **Canva's text editing** features. Add, move, style, and edit text on a canvas with **undo/redo** support.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## Features
+- **Add Text**  
+- **Drag to Move**  
+- **Edit Text Content**  
+- **Change Font Size**  
+- **Bold / Italic Toggle**  
+- **Delete Selected Text**  
+- **Undo & Redo**  
+- **Visual Selection Border**
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Project Structure
+```plaintext
+lib/
+├── main.dart              → Main UI + Logic
+└── models/
+    └── text_element.dart  → Text data model
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```
+## How to Run
+
+1. Clone or copy this project
+2. Open in terminal:
+```bash
+flutter pub get
+flutter run
